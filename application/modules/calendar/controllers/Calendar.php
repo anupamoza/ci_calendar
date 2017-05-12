@@ -40,7 +40,7 @@ Class Calendar extends MX_Controller
     // Load View
     public function load_view($view_name = '', $data = array())
     {
-        $this->load->view('header', $data);
+        $this->load->view('header');
         $this->load->view($view_name, $data);
         $this->load->view('footer');
     }
